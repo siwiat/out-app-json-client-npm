@@ -2,6 +2,20 @@
   "name": "siwiat_out_app___json",
   "version": "1.0.0",
   "description": "Access_to_SIWIAT_App_Box_Out_App_JSON",
+  "keywords": [
+	"SIWIAT", 
+	"Out App", 
+	"JSON"
+  ],
+  "homepage": "http://siwiat.com",
+  "author": {
+	"name" : "Ondics GmbH",
+	"url" : "http://ondics.de"
+  },
+  "repository" :
+  { "type" : "git", 
+	"url" : "https://github.com/siwiat/out-app-json-client-npm.git"
+  },
   "license": "Apache-2.0",
   "main": "src/index.js",
   "scripts": {
