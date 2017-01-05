@@ -82,8 +82,8 @@
       if (data.hasOwnProperty('errorno')) {
         obj['errorno'] = ApiClient.convertToType(data['errorno'], 'Number');
       }
-      if (data.hasOwnProperty('errortype')) {
-        obj['errortype'] = ApiClient.convertToType(data['errortype'], 'String');
+      if (data.hasOwnProperty('errormsg')) {
+        obj['errormsg'] = ApiClient.convertToType(data['errormsg'], 'String');
       }
     }
     return obj;
@@ -102,9 +102,9 @@
    */
   exports.prototype['errorno'] = undefined;
   /**
-   * @member {String} errortype
+   * @member {String} errormsg
    */
-  exports.prototype['errortype'] = undefined;
+  exports.prototype['errormsg'] = undefined;
 
 
 

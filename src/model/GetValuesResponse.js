@@ -79,12 +79,6 @@
       if (data.hasOwnProperty('values')) {
         obj['values'] = ApiClient.convertToType(data['values'], [Value]);
       }
-      if (data.hasOwnProperty('errorno')) {
-        obj['errorno'] = ApiClient.convertToType(data['errorno'], 'Number');
-      }
-      if (data.hasOwnProperty('errortype')) {
-        obj['errortype'] = ApiClient.convertToType(data['errortype'], 'String');
-      }
     }
     return obj;
   }
@@ -97,16 +91,6 @@
    * @member {Array.<module:model/Value>} values
    */
   exports.prototype['values'] = undefined;
-  /**
-   * @member {Number} errorno
-   */
-  exports.prototype['errorno'] = undefined;
-  /**
-   * @member {String} errortype
-   */
-  exports.prototype['errortype'] = undefined;
-
-
 
   return exports;
 }));
